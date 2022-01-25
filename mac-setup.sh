@@ -28,6 +28,7 @@ fi
 
 brew install asdf
 brew install bat
+brew install ffmpeg
 brew install fzf
 brew install ghq
 brew install htop
@@ -47,6 +48,7 @@ brew install --cask authy
 brew install --cask charles
 brew install --cask docker
 brew install --cask fork
+brew install --cask imageoptim
 brew install --cask iterm2
 brew install --cask google-chrome
 brew install --cask karabiner-elements
