@@ -1,3 +1,6 @@
+## zsh-completions
+chmod -R go-w /opt/homebrew/share
+
 ## Dock
 defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dock persistent-apps -array
@@ -28,6 +31,7 @@ fi
 
 brew install asdf
 brew install bat
+brew install fd
 brew install ffmpeg
 brew install fzf
 brew install ghq
@@ -41,12 +45,17 @@ brew install ruby-build
 brew install tmux
 brew install vim
 brew install wget
+brew install zsh
+brew install zsh-completions
+brew install zsh-autosuggestions
 
 brew install --cask alfred
+brew install --cask android-studio
 brew install --cask appcleaner
 brew install --cask authy
 brew install --cask charles
 brew install --cask docker
+brew install --cask fig
 brew install --cask fork
 brew install --cask imageoptim
 brew install --cask iterm2
@@ -65,24 +74,6 @@ brew install --cask 1password
 
 # brew tap brona/iproute2mac
 # brew install iproute2mac
-
-## fish
-brew install fish
-curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
-fisher install oh-my-fish/theme-bobthefish
-git clone https://github.com/powerline/fonts.git
-cd fonts
-./install.sh
-cd ../
-rm -rf fonts
-git clone https://github.com/dracula/iterm.git
-cd iterm
-open ./iterm/Dracula.itermcolors
-cd ..
-rm -rf iterm
-fish_update_completions
-echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
-chsh -s /usr/local/bin/fish
 
 ## git
 echo .DS_Store >> ~/.gitignore_global
