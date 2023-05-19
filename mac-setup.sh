@@ -55,10 +55,9 @@ brew install --cask appcleaner
 brew install --cask authy
 brew install --cask charles
 brew install --cask docker
-brew install --cask fig
 brew install --cask fork
 brew install --cask imageoptim
-brew install --cask iterm2
+brew install --cask warp
 brew install --cask google-chrome
 brew install --cask karabiner-elements
 brew install --cask kindle
