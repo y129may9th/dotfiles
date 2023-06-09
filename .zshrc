@@ -21,6 +21,7 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias dcom='docker-compose'
 alias rm='trash -F'
+alias thankyou="echo \"You're welcome!\""
 
 ## git alias
 alias gaa='git add -A'
