@@ -29,6 +29,7 @@ if [ ! -x "`which brew`" ]; then
   brew upgrade --all --cleanup
 fi
 
+brew install android-studio
 brew install asdf
 brew install bat
 brew install fd
