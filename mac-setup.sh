@@ -29,7 +29,7 @@ if [ ! -x "`which brew`" ]; then
   brew upgrade --all --cleanup
 fi
 
-brew install android-studio
+# brew install android-studio
 brew install asdf
 brew install bat
 brew install fd
@@ -58,17 +58,18 @@ brew install --cask charles
 brew install --cask docker
 brew install --cask fork
 brew install --cask imageoptim
-brew install --cask warp
 brew install --cask google-chrome
 brew install --cask karabiner-elements
 brew install --cask kindle
 brew install --cask microsoft-powerpoint
 brew install --cask microsoft-teams
 brew install --cask now
+brew install --cask raycast
 brew install --cask sequel-pro
 brew install --cask slack
 brew install --cask tableplus
 brew install --cask visual-studio-code
+# brew install --cask warp
 brew install --cask zoomus
 brew install --cask 1password
 
